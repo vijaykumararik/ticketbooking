@@ -1,0 +1,393 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+/* singup page=============== */
+.singuppage{
+  
+  background-image: repeating-linear-gradient(rgb(232, 235, 235),rgb(239, 138, 155),rgb(189, 242, 16),rgb(251, 251, 251));
+}
+.singuppage h1{
+  color: rgb(116, 9, 193);
+  text-align: center;
+}
+.signup{
+  height: 50%;
+  width: 40%;
+  /* background-color: aqua; */
+  background-image: linear-gradient(orange,green);
+  
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  padding: 26px;
+  border-radius: 10px;
+  
+
+}
+.signup input,.signup button{
+  margin: 10px 0;
+  height: 30px;
+}
+.verifybtn{
+  margin: auto;
+  text-align: center;
+}
+
+/*  login page============*/
+
+.login{
+  height: 50%;
+  width: 40%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  padding: 26px;
+  border-radius: 10px;
+
+}
+.login input,.login button{
+  margin: 10px 0;
+  height: 30px;
+}
+
+.loginpage h1{
+  color: rgb(116, 9, 193);
+  text-align: center;
+}
+/* nav barpage ==========*/
+.navbar{
+  width:100vw ;
+  height: 70px;
+  background-color: rgb(241, 238, 238);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  margin: auto;
+  border-radius: 10px;
+
+  border: 1px solid rgb(127, 211, 240);
+}
+.nav-lists{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-lists a{
+  text-decoration: none;
+  color: rgb(240, 10, 10);
+
+}
+.nav-lists li{
+  margin: 5px 20px;
+  color: rgb(32, 198, 210);
+}
+.nav-lists :nth-child(4) a {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(32, 198, 210);
+}
+.logo a{
+  color: rgb(32, 198, 210);
+  font-weight: bolder;
+  font-size: 25px; 
+  text-decoration: none;
+}
+
+ 
+.nav_profile a{
+ text-decoration: none;
+ color:rgb(32, 198, 210);
+ font-size: 20px;
+ margin:  5px;
+}
+.btn{
+   width: 100px;
+  height: 35px;
+  background: rgb(32, 198, 210);
+  text-align: center;
+  color: rgb(251, 251, 251);
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 40px;
+}
+.btn:hover{
+  background-color: white;
+  color: rgb(32, 198, 210);
+  border: 2px solid rgb(32, 198, 210);
+  transition: 0.3s;
+  position: relative;
+  top: 4px;
+  left: 4px;
+  box-shadow: 2px 2px 0px rgb(32, 198, 210);
+
+}
+
+.nav_btn_logout{
+  width: 100px;
+  height: 40px;
+  background: blue;
+  color: white;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.user__details{
+  width: 60%;
+  height: auto;
+  background-color: rgb(251, 251, 250);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 40px;
+
+}
+.user__details p{
+  margin: 10px;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: underline green 5px;
+  color: blue;
+  font-size: 30px;
+  
+}
+
+/* busbooking ======*/
+.busbook{
+  text-align: center;
+}
+.inputs h1{
+  color: rgb(250, 247, 247);
+  background-color: black;
+  font-style: italic;
+  padding: 5px;
+  margin: 0 10px;
+}
+hr{
+  width: 90%;
+  margin: auto;
+  color: blue;
+    height: 5px;
+    background-color: blue;
+}
+.form{
+  margin: auto;
+  margin-top: 10px;
+  display: grid;
+  max-width: 800px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 8px;
+
+}
+.btn-searchbus{
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  padding: 6px;
+  outline: none;
+  border: 2px solid rgb(252, 248, 252);
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.btn-searchbus:hover{
+  border: 2px solid blue;
+  background-color: white;
+  color: blue;
+  transition: 0.3s;
+}
+.table{
+  font-size: 23px;
+  font-weight: bold;
+  color: rgba(249, 249, 249, 0.958);
+  background-image: linear-gradient(rgba(1, 0, 0, 0.933), gray,rgba(121, 161, 237, 0.912));
+  border-radius: 10px;
+  padding: 20px;
+  margin:  auto 10px;
+
+}
+.trhead th{
+  color: rgb(238, 12, 43);
+  text-transform: uppercase;
+  text-decoration: underline solid 2px rgb(246, 245, 245);
+}
+.btn-book{
+   width: 100px;
+   height: 40px;
+   background-color: blue;
+   color: white;
+   font-size: 15px;
+   padding: 6px;
+   outline: none;
+   border: 2px solid rgb(252, 248, 252);
+   border-radius: 10px;
+   cursor: pointer;
+}
+.btn-book:hover{
+  border: 2px solid blue;
+  background-color: white;
+  color: blue;
+  transition: 0.3s;
+}
+/* home page design========= */
+.homepage{
+  width: 100vw;
+}
+.dashboard{
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.image{
+  margin: 50px;
+}
+.img1{
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgb(165, 165, 165);
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+  }
+.img1 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.img1 img:hover{
+  transform: scale(1.1);
+}
+.img2{
+  display: inline-block;
+  width: 160px;
+  height: 200px;
+  border-radius: 12px;
+  background-color: white;
+  padding: 5px;
+  box-shadow: 0px 0px 10px rgb(165, 165, 165);
+  position: relative;
+  right: 60px;
+  z-index: 10;
+  overflow: hidden;
+}
+.img2 img{
+width: 100%;
+height: 100%;
+border-radius: 10px;
+transition: 0.3s;
+}
+.img2 img:hover{
+  transform: scale(1.1);
+
+}
+.textheader{
+  width: 500px;
+}
+.textheader span{
+  color: rgb(0, 119, 255);
+  font-size: 17px;
+  font-weight: 500;
+}
+.textheader h1{
+  width: 400px;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+.textheader p{
+  width: 400px;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+.textheader div{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textheader div button{
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding: 10px 25px;
+  border: rgb(0, 119, 255) solid 1px;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+.textheader div button:hover{
+  background-color: rgb(249, 249, 249);
+  color: rgb(0, 119, 255);
+}
+
+.textheader div img{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: solid 1px black;
+}
+.textheader div a{
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.card-box{
+  margin: 120px 0px;
+  padding: 10px 100px;
+}
+.card-box h1{
+  margin: 25px 0px;
+}
+.card-box p{
+  margin: 25px 0px;
+  width: 700px;
+}
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+}
+.cards div{
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cards div img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: 0.4s; 
+}
+.cards div img:hover{
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+/* -------------------------------------PROFILE -------------------------- */
+
+.profilepage{
+  width: 100vw;
+}
+.user-details{
+  margin: 50px 100px;
+}

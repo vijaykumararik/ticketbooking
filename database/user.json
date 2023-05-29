@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "gunda",
+      "email": "gunda@gmail.com",
+      "password": "gunda123",
+      "phone": "9876543219",
+      "dob": "01/01/2001",
+      "pic": "",
+      "gender": "",
+      "active_bookings": [
+        {
+          "busname": "airavatha",
+          "busnumber": "KA014567",
+          "seats": "1",
+          "from": "bengaluru",
+          "to": "Mumbai",
+          "start": "10:00 am",
+          "end": "10:00 pm",
+          "journey_time": "10 hrs",
+          "price": "1000",
+          "date": "20/7/2023"
+        },
+        {
+          "busname": "Pragati tourists",
+          "busnumber": "KA01E442",
+          "seats": 1,
+          "from": "Bangalore",
+          "to": "Gulbarga",
+          "start": "9:45pm",
+          "end": "10:45am",
+          "journey_time": "13",
+          "price": 1000,
+          "date": "2023-05-26"
+        },
+        {
+          "busname": "Orange",
+          "busnumber": "KA32E8055",
+          "seats": 1,
+          "from": "Gulbarga",
+          "to": "Bangalore",
+          "start": "8:00pm",
+          "end": "8:00am",
+          "journey_time": "12",
+          "price": 1500,
+          "date": "2023-05-26"
+        },
+        {
+          "busname": "Pragati tourists",
+          "busnumber": "KA01E442",
+          "seats": 1,
+          "from": "Bangalore",
+          "to": "Gulbarga",
+          "start": "9:45pm",
+          "end": "10:45am",
+          "journey_time": "13",
+          "price": 1000,
+          "date": "2023-05-27"
+        }
+      ],
+      "previous_bookings": []
+    }
+  ]
+}
